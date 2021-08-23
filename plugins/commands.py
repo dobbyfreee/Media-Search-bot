@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('More Bots', url='https://t.me/dobby_free')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -191,8 +191,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('Update Channel', url='https://t.me/Bwf_Movies'),
+            InlineKeyboardButton('Source Code', url='https://t.me/BWF_ofc')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/Rihu_mone'>RIHU</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/BWF_ofc'>Click here</a>\nUpdate Channel : <a href='https://t.me/Bwf_Movies'>BwF_Movies</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
